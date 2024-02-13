@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto,sans-serif;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}
+
+ul{
+    list-style: none; 
+}
+
+li{
+    margin:3px;
+    padding: 7px;
+    border: 1px solid  #052659;
+    border-radius: 10px;
+}
+
+li::first-letter {
+    padding: 5px;
+    background-color: #052659;
+    border-radius: 20px;
+    color: white;
+}
+
+span{
+    font-size: 20px;
+    color: #052659;
+}
